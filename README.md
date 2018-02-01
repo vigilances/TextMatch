@@ -31,7 +31,7 @@ Step3
 
 执行匹配，返回结果（native方法和工具类方法）
 
-do textmatch ,and return the result
+do fuzzy match ,and return the result
 
     public static native int textScore(String inputText, Object[] strOut, int whetherScore);
 
