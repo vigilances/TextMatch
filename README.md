@@ -6,6 +6,7 @@ Use  this engine to  fuzzy match
 Step1
 
 拷贝assets下的模型文件到你的工程，并写入你的设备中，后面初始引擎需要传入该路径
+
 Copy the modelfile in assets to your project,then write these into your devices,
 because init the engine  need the path of these files
 
@@ -14,6 +15,7 @@ because init the engine  need the path of these files
 Step2
 
 初始化引擎,详见工程（代码很简单，就一个工具类和native的入口类）
+
 Init the engine，see details in project(TextMatch and NameMate)
 
     public static native int textInitial(String modelFilePath, String inputList, String delimiter, int minScore);
@@ -27,6 +29,7 @@ Init the engine，see details in project(TextMatch and NameMate)
 Step3
 
 执行匹配，返回结果（native方法和工具类方法）
+
 do textmatch ,and return the result
 
     public static native int textScore(String inputText, Object[] strOut, int whetherScore);
