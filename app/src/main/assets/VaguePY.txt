@@ -1,0 +1,9 @@
+﻿z,zh
+s,sh
+c,ch
+Z,Zh
+S,Sh
+C,Ch
+an,ang
+en,eng
+in,ing
