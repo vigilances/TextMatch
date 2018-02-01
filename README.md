@@ -1,8 +1,9 @@
 # TextMatch
 
-使用引擎来进行模糊匹配
+# Usage
 
-Use  this engine to  fuzzy match
+使用引擎来进行模糊匹配
+this engine is used to fuzzy match
 
 Step1
 
