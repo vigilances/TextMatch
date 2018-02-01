@@ -53,6 +53,9 @@ public class MainActivity extends AppCompatActivity {
         initEgine();
     }
 
+    /**
+     * init the engine
+     */
     private void initEgine() {
         NameMate.getInstance(this).setFree();
         NameMate.getInstance(this).init(this, inPut);
@@ -60,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void click(View v) {
         if (TextUtils.isEmpty(editText.getText().toString().trim())) {
-            Toast.makeText(this, "InputText is null !", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "InputText is empty !", Toast.LENGTH_SHORT).show();
         } else {
             {
                 long startTime = System.currentTimeMillis();
